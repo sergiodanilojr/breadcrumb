@@ -1,5 +1,5 @@
 {
-  "name": "sergiodanilojr/breadcrumb",
+  "name": "elephpant/breadcrumb",
   "description": "Breadcrumbs in an uncomplicated way. This component facilitates the way to create breadcrumbs for your website, to favor a more accessible navigation. It was designed to work very well with the Bootstrap Framework. Besides being very easy to use, it has very interesting possibilities, such as adding new separators and new CSS classes to style this interface component to your liking. The Breadcrumb Component also allows you to have access to the Array assembled to feed into other features of your system, such as a microformat, for example.",
   "keywords": [
     "Sérgio Danilo Jr",
@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "SergioDaniloJr\\Breadcrumb\\": "src"
+      "ElePHPant\\Breadcrumb\\": "src"
     }
   }
 }

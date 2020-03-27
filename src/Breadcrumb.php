@@ -1,11 +1,11 @@
 <?php
 
-namespace SergioDaniloJr\Breadcrumb;
+namespace ElePHPant\Breadcrumb;
 
 
 /**
  * Class Breadcrumb
- * @package SergioDaniloJr\Breadcrumb
+ * @package ElePHPant\Breadcrumb
  * @author Sérgio Danilo Jr. <https://github.com/sergiodanilojr>
  */
 class Breadcrumb
