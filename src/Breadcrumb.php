@@ -27,7 +27,7 @@ class Breadcrumb
      * Breadcrumb constructor.
      * @param null|string $separator
      */
-    public function __construct(?string $separator = "/")
+    public function __construct(?string $separator = null)
     {
         $this->separator = $separator;
         $this->links = [];
