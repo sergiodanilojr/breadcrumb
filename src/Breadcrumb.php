@@ -47,7 +47,7 @@ class Breadcrumb
         bool $showTitle = true,
         ?string $icon = null,
         string $class = null
-    )
+    ):Breadcrumb
     {
         $this->base = [
             "url" => $baseUrl,
@@ -74,7 +74,7 @@ class Breadcrumb
     /**
      * @return string
      */
-    public function render()
+    public function render():string
     {
         $init = "<nav aria-label=\"breadcrumb\"><ol class=\"breadcrumb\">";
         $end = "</ol></nav>";

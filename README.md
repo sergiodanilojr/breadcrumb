@@ -29,7 +29,7 @@ O Breadcrumb Component também possibilita que você tenha acesso ao Array monta
 Breadcrumb is available via Composer:
 
 ```bash
-"elephpant/breadcrumb": "dev-master"
+"elephpant/breadcrumb": "1.0.0"
 ```
 
 or run
