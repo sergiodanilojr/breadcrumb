@@ -1,0 +1,29 @@
+{
+  "name": "elephpant/breadcrumb",
+  "description": "Descrição do Componente",
+  "keywords": [
+    "Sérgio Danilo Jr",
+    "breadcrumb",
+    "bread",
+    "crumb",
+    "elephpant",
+    "elephant"
+  ],
+  "homepage": "https://www.sergiodanilojr.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sérgio Danilo Jr.",
+      "email": "sergiodaniojr@hotmai.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ElePHPant\\Breadcrumb\\": "src"
+    }
+  }
+}
