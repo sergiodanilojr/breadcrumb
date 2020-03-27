@@ -122,7 +122,7 @@ Please see [CONTRIBUTING](https://github.com/sergiodanilojr/breadcrumb/blob/mast
 
 ## Support
 
-###### Security: If you discover any security related issues, please email contato@sergiodanilojr.com.br instead of using the issue tracker.
+###### Security: If you discover any security related issues, please email sergiodanilojr@hotmail.com instead of using the issue tracker.
 
 Se você descobrir algum problema relacionado à segurança, envie um e-mail para sergiodanilojr@hotmail.com em vez de usar o rastreador de problemas.
 
@@ -130,7 +130,7 @@ Thank you
 
 ## Credits
 
-- [Sérgio Dnailo Jr.](https://github.com/sergiodanilojr) (Developer)
+- [Sérgio Danilo Jr.](https://github.com/sergiodanilojr) (Developer)
 - [All Contributors](https://github.com/sergiodanilojr/breadcrumb/contributors)
 
 ## License
