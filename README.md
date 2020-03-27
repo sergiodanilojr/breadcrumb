@@ -1,13 +1,13 @@
-# Breadcrumb @ElePHPant
+# Breadcrumb
 
 [![Maintainer](http://img.shields.io/badge/maintainer-@sergiodanilojr-blue.svg?style=flat-square)](https://twitter.com/sergiodanilojr)
-[![Source Code](http://img.shields.io/badge/source-elephpant/breadcrumb-blue.svg?style=flat-square)](https://github.com/sergiodanilojr/breadcrumb)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/elephpant/breadcrumb.svg?style=flat-square)](https://packagist.org/packages/sergiodanilojr/breadcrumb)
-[![Latest Version](https://img.shields.io/github/release/elephpant/breadcrumb.svg?style=flat-square)](https://github.com/sergiodanilojr/component/releases)
+[![Source Code](http://img.shields.io/badge/source-sergiodanilojr/breadcrumb-blue.svg?style=flat-square)](https://github.com/sergiodanilojr/breadcrumb)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/sergiodanilojr/breadcrumb.svg?style=flat-square)](https://packagist.org/packages/sergiodanilojr/breadcrumb)
+[![Latest Version](https://img.shields.io/github/release/sergiodanilojr/breadcrumb.svg?style=flat-square)](https://github.com/sergiodanilojr/component/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/scrutinizer/build/g/elephpant/breadcrumb.svg?style=flat-square)](https://scrutinizer-ci.com/g/sergiodanilojr/breadcrumb)
-[![Quality Score](https://img.shields.io/scrutinizer/g/elephpant/breadcrumb.svg?style=flat-square)](https://scrutinizer-ci.com/g/sergiodanilojr/breadcrumb)
-[![Total Downloads](https://img.shields.io/packagist/dt/elephpant/breadcrumb.svg?style=flat-square)](https://packagist.org/packages/csergiodanilojr/breadcrumb)
+[![Build](https://img.shields.io/scrutinizer/build/g/sergiodanilojr/breadcrumb.svg?style=flat-square)](https://scrutinizer-ci.com/g/sergiodanilojr/breadcrumb)
+[![Quality Score](https://img.shields.io/scrutinizer/g/sergiodanilojr/breadcrumb.svg?style=flat-square)](https://scrutinizer-ci.com/g/sergiodanilojr/breadcrumb)
+[![Total Downloads](https://img.shields.io/packagist/dt/sergiodanilojr/breadcrumb.svg?style=flat-square)](https://packagist.org/packages/csergiodanilojr/breadcrumb)
 
 ###### Breadcrumbs in an uncomplicated way. This component facilitates the way to create breadcrumbs for your website, to favor a more accessible navigation. It was designed to work very well with the Bootstrap Framework. Besides being very easy to use, it has very interesting possibilities, such as adding new separators and new CSS classes to style this interface component to your liking. The Breadcrumb Component also allows you to have access to the Array assembled to feed into other features of your system, such as a microformat, for example.
 
@@ -29,13 +29,13 @@ O Breadcrumb Component também possibilita que você tenha acesso ao Array monta
 Breadcrumb is available via Composer:
 
 ```bash
-"elephpant/breadcrumb": "dev-master"
+"sergiodanilojr/breadcrumb": "dev-master"
 ```
 
 or run
 
 ```bash
-composer require elephpant/breadcrumb
+composer require sergiodanilojr/breadcrumb
 ```
 
 ## Documentation
@@ -50,7 +50,7 @@ Para mais detalhes sobre como usar, veja uma pasta de exemplo no diretório do c
 <?php
 require __DIR__ . "/../vendor/autoload.php";
 
-$breadcrumb = (new \ElePHPant\Breadcrumb\Breadcrumb(null))
+$breadcrumb = (new \SergioDaniloJr\Breadcrumb\Breadcrumb(null))
     ->base("https://www.sergiodanilojr.com.br", "Home")
     ->addCrumb("Blog", "blog")
     ->addCrumb("Nome do Artigo", "url-do-artigo")
@@ -65,7 +65,7 @@ echo $breadcrumb->render();
 require __DIR__ . "/../vendor/autoload.php";
 $separator = "<i class='icon-angle-right'></i>";
 
-$breadcrumb = (new \ElePHPant\Breadcrumb\Breadcrumb($separator));
+$breadcrumb = (new \SergioDaniloJr\Breadcrumb\Breadcrumb($separator));
 
 //NOTEs:
 // The default value of the separator is null. But the Bootstrap use with the 'content' attribute the slash ("/") like a separator 
@@ -79,13 +79,13 @@ $breadcrumb = (new \ElePHPant\Breadcrumb\Breadcrumb($separator));
 require __DIR__ . "/../vendor/autoload.php";
 $icon = "<i class='icon-home'></i>";
 
-$breadcrumb = (new \ElePHPant\Breadcrumb\Breadcrumb(null));
-$breadcrumb->base("https://elephpant.com.br", "Home",false, $icon);
+$breadcrumb = (new \SergioDaniloJr\Breadcrumb\Breadcrumb(null));
+$breadcrumb->base("https://sergiodanilojr.com.br", "Home",false, $icon);
 //NOTE: The third param's is false for hide the name (Home)
 
 //If you want to put another class insert value in the 5th param:
 $class = "p-3 rounded";
-$breadcrumb->base("https://elephpant.com.br", "Home",false, $icon, $class);
+$breadcrumb->base("https://sergiodanilojr.com.br", "Home",false, $icon, $class);
 
 ```
 
@@ -95,8 +95,8 @@ $breadcrumb->base("https://elephpant.com.br", "Home",false, $icon, $class);
 require __DIR__ . "/../vendor/autoload.php";
 $class = "text-underline text-danger";
 
-$breadcrumb = (new \ElePHPant\Breadcrumb\Breadcrumb(null));
-$breadcrumb->base("https://elephpant.com.br", "Home",false, $icon)
+$breadcrumb = (new \SergioDaniloJr\Breadcrumb\Breadcrumb(null));
+$breadcrumb->base("https://sergiodanilojr.com.br", "Home",false, $icon)
 ->addCrumb("Blog", "blog", $class);
 
 ```
@@ -106,7 +106,7 @@ $breadcrumb->base("https://elephpant.com.br", "Home",false, $icon)
 <?php
 require __DIR__ . "/../vendor/autoload.php";
 
-$breadcrumb = (new \ElePHPant\Breadcrumb\Breadcrumb(null))
+$breadcrumb = (new \SergioDaniloJr\Breadcrumb\Breadcrumb(null))
     ->base("https://www.sergiodanilojr.com.br", "Home")
     ->addCrumb("Blog", "blog")
     ->addCrumb("Nome do Artigo", "url-do-artigo")

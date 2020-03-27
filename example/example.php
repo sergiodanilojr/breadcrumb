@@ -13,7 +13,7 @@
 <?php
 require __DIR__ . "/../vendor/autoload.php";
 
-$breadcrumb = (new \ElePHPant\Breadcrumb\Breadcrumb(null))
+$breadcrumb = (new \SergioDaniloJr\Breadcrumb\Breadcrumb(null))
     ->base("https://www.sergiodanilojr.com.br", "Home")
     ->addCrumb("Blog", "blog")
     ->addCrumb("Nome do Artigo", "url-of-the-article")
