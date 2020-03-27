@@ -5,8 +5,8 @@
 [![PHP from Packagist](https://img.shields.io/packagist/php-v/elephpant/breadcrumb.svg?style=flat-square)](https://packagist.org/packages/sergiodanilojr/breadcrumb)
 [![Latest Version](https://img.shields.io/github/release/elephpant/breadcrumb.svg?style=flat-square)](https://github.com/sergiodanilojr/breadcrumb/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-[![Build](https://img.shields.io/scrutinizer/build/g/elephpant/breadcrumb.svg?style=flat-square)](https://scrutinizer-ci.com/g/sergiodanilojr/breadcrumb)
-[![Quality Score](https://img.shields.io/scrutinizer/g/elephpant/breadcrumb.svg?style=flat-square)](https://scrutinizer-ci.com/g/sergiodanilojr/breadcrumb)
+[![Build](https://img.shields.io/scrutinizer/build/g/sergiodanilojr/breadcrumb.svg?style=flat-square)](https://scrutinizer-ci.com/g/sergiodanilojr/breadcrumb)
+[![Quality Score](https://img.shields.io/scrutinizer/g/sergiodanilojr/breadcrumb.svg?style=flat-square)](https://scrutinizer-ci.com/g/sergiodanilojr/breadcrumb)
 [![Total Downloads](https://img.shields.io/packagist/dt/elephpant/breadcrumb.svg?style=flat-square)](https://packagist.org/packages/sergiodanilojr/breadcrumb)
 
 ###### Breadcrumbs in an uncomplicated way. This component facilitates the way to create breadcrumbs for your website, to favor a more accessible navigation. It was designed to work very well with the Bootstrap Framework. Besides being very easy to use, it has very interesting possibilities, such as adding new separators and new CSS classes to style this interface component to your liking. The Breadcrumb Component also allows you to have access to the Array assembled to feed into other features of your system, such as a microformat, for example.
