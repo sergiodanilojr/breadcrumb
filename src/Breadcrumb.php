@@ -79,7 +79,7 @@ class Breadcrumb
         $init = "<nav aria-label=\"breadcrumb\"><ol class=\"breadcrumb\">";
         $end = "</ol></nav>";
 
-        return $init . $this->setBase() . $this->mount($this->links) . $end;
+        return $init . ($this->links ? $this->setBase() : "") . $this->mount($this->links) . $end;
     }
 
     public function allCrumbs(): ?array
