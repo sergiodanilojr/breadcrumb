@@ -47,7 +47,7 @@ class Breadcrumb
         bool $showTitle = true,
         ?string $icon = null,
         string $class = null
-    ):Breadcrumb
+    ): Breadcrumb
     {
         $this->base = [
             "url" => $baseUrl,
@@ -74,7 +74,7 @@ class Breadcrumb
     /**
      * @return string
      */
-    public function render():string
+    public function render(): string
     {
         $init = "<nav aria-label=\"breadcrumb\"><ol class=\"breadcrumb\">";
         $end = "</ol></nav>";
@@ -104,7 +104,7 @@ class Breadcrumb
             if ($b == $last) {
                 $breadcrumb .= "<li class=\"breadcrumb-item active {$links[$b]["class"]}\" aria-current=\"page\">{$this->separator}{$links[$b]["title"]}</li>" . "\n";
             } else {
-                $breadcrumb .= "<li class=\"breadcrumb-item {$links[$b]["class"]}\"><a href=\"{$links[$b]["url"]}\">{$this->separator}{$links[$b]["title"]}</a></li>" . "\n";
+                $breadcrumb .= "<li class=\"breadcrumb-item {$links[$b]["class"]}\">{$this->separator}<a href=\"{$links[$b]["url"]}\">{$links[$b]["title"]}</a></li>" . "\n";
             }
         }
 
